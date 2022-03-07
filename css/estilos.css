@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+
+body { margin: 0; padding: 0; }
+
+.container { width: 990px; margin: 0 auto; }
+
+.lista-horizontal { display: flex; padding-left: 0; }
+.lista-horizontal li { list-style: none; }
+
+.topo { background-color: #FFCC40; }
+.topo .container { display: flex; justify-content: space-between; align-items: center; }
+.topo .logo { margin: 0; }
+
+.rodape { background-color: #FFCC40; }
+.rodape .container { display: flex; justify-content: space-between; align-items: center; }
+
+
+.destaques ul { justify-content: space-between; }
+/* .destaques ul li a h3 { align-items: center; } */
+.banner { background-color: #191919; }
+.banner a { display: block; }
+.banner a img { display: block; }
